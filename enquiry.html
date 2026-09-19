@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kabohamo Automotive - vehicle licensing, registration, number plates and logistics services.">
+  <title>Enquiry | Kabohamo Automotive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="navbar container">
+    <a href="index.html" class="brand" aria-label="Kabohamo Automotive home">
+      <img class="brand-logo" src="images/logo.png" alt="Kabohamo Automotive logo">
+      <span>KABOHAMO <strong>AUTOMOTIVE</strong></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+      <a href="enquiry.html" class="nav-cta">Make an Enquiry</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero"><div class="container"><span class="eyebrow">ENQUIRY</span><h1>How Can We Help?</h1><p>Select a service and send your details. We will use your enquiry to understand what you need.</p></div></section>
+  <section class="section">
+    <div class="container form-layout">
+      <div class="form-intro">
+        <span class="eyebrow">START HERE</span>
+        <h2>Tell Us What You Need</h2>
+        <p>Choose the service that best matches your request, then complete the form.</p>
+        <div class="form-note"><strong>Tip:</strong> Do not submit sensitive identity documents through this demo form.</div>
+        <div class="form-side-media"><img src="images/vehicle-registration.png" alt="Vehicle Documentation and Services"></div>
+      </div>
+      <form id="enquiryForm" class="form-card">
+        <label for="service">Service required</label>
+        <select id="service" name="service" required>
+          <option value="">Select a service</option>
+          <option value="licensing">Vehicle Licensing / Renewal</option>
+          <option value="registration">Vehicle Registration</option>
+          <option value="plates">Number Plates</option>
+          <option value="logistics">Logistics</option>
+          <option value="business">Business / Fleet Enquiry</option>
+          <option value="general">General Enquiry</option>
+        </select>
+
+        <div class="form-grid">
+          <div><label for="name">Full name</label><input id="name" name="name" type="text" required></div>
+          <div><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" required></div>
+        </div>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" required>
+
+        <div id="vehicleFields">
+          <div class="form-grid">
+            <div><label for="reg">Vehicle registration</label><input id="reg" name="reg" type="text"></div>
+            <div><label for="make">Vehicle make</label><input id="make" name="make" type="text"></div>
+          </div>
+          <div class="form-grid">
+            <div><label for="model">Vehicle model</label><input id="model" name="model" type="text"></div>
+            <div><label for="vehicleType">Vehicle type</label><input id="vehicleType" name="vehicleType" type="text"></div>
+          </div>
+        </div>
+
+        <div id="businessFields" class="hidden">
+          <label for="company">Company / organisation name</label>
+          <input id="company" name="company" type="text">
+          <label for="fleetSize">Number of vehicles</label>
+          <input id="fleetSize" name="fleetSize" type="number" min="1">
+        </div>
+
+        <label for="message">Additional information</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="btn btn-primary full" type="submit">Submit Enquiry</button>
+        <div id="formMessage" class="form-message" role="status"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><img class="brand-logo" src="images/logo.png" alt="Kabohamo Automotive logo"><span>KABOHAMO <strong>AUTOMOTIVE</strong></span></div>
+      <p>Vehicle licensing, registration, number plates and logistics support.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>14 Ramakgobelle Street<br>Tlhabane West, Rustenburg</p>
+      <p><a href="tel:+27141510124">014 151 0124</a><br><a href="tel:+27823269739">082 326 9739</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">© 2026 Kabohamo Automotive. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

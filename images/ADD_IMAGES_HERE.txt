@@ -1,0 +1,23 @@
+========================================================================
+KABOHAMO AUTOMOTIVE — IMAGE REPLACEMENT GUIDE
+========================================================================
+
+All website images are located in the `images/` folder.
+To replace any image, save your photo with the exact same filename into `images/`.
+
+FILENAME                  LOCATION / USAGE                                DESCRIPTION
+-----------------------------------------------------------------------------------------------------------
+logo.png                  Website Logo (Header navbar & footer)           Square brand logo (PNG)
+hero.jpg (or m4.jpg)      Homepage Hero Banner Background                 BMW M4 Manhart GTR (Black & Red)
+audirs3.jpg               Homepage "The Kabohamo Difference" Split Section Green Audi RS3 Sportback
+BmwM2.png                 About Us Page "Our Story" Split Section         Green BMW M2 Coastal Drive
+R.jpg                     Licensing Service Card (Home & Services page)   SA Vehicle Licence Disc Certificate
+vehicle-registration.png  Registration Service Card & Enquiry sidebar     SA Motor Vehicle RC1 Registration
+numberplates.png          Number Plates Service Card (Home & Services)    South African Gauteng Number Plates
+service-logistics.jpg     Logistics Service Card (Home & Services page)   Commercial Logistics Fleet Trucks
+team-1.jpg                About Page: Director / Management               Staff portrait 1
+team-2.jpg                About Page: Customer Support                    Staff portrait 2
+team-3.jpg                About Page: Administrative Support              Staff portrait 3
+office-location.jpg       Contact Page: Office Location Card              Office / Facility background
+========================================================================
+
