@@ -27,7 +27,7 @@ Explains the company's purpose, mission, vision, values, and team support struct
 
 Describes the main services offered, including licensing, registration, number plates, and logistics support.
 
-### Enquiry
+### Enquiry 
 
 Provides a form where individuals and businesses can submit service requests and provide relevant vehicle or fleet information.
 
@@ -59,3 +59,5 @@ Displays the office address, telephone numbers, WhatsApp contact, business hours
 ## How to Run the Website
 
 No installation or database is required. Open `index.html` in a web browser, or use a local development server such as the VS Code Live Server extension.
+
+# This is a current operating business 
